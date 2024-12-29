@@ -1,0 +1,5 @@
+n = str(input('Qual é o seu nome? ')).strip().upper()
+print('Que nome lindo!' if n == 'GABRIEL' else 'O seu nome é tão normal!')
+print('Prazer em te conhecer. Bom dia!')
+i = int(input('Espera aí... Qual é a sua idade? '))
+print('Você é jovem, aproveite para estudar!' if i <= 25 else 'Você deve ter muita história para contar!')
